@@ -8,16 +8,19 @@ print()
 
 print("---Aspect 2---")
 y = int(input("input integer Y: "))
-print("Y = %d" % y)
+if x >= y:
+    print("X(=%d) is greater." % x)
+else:
+    print("Y(=%d) is greater." % y)
 print()
 
 print("---Aspect 3---")
 if x % 2 == 0 and y % 2 == 0:
     print("There is no odd number.")
 elif x % 2 and x > y:
-    print("X(=%d) is odd and bigger than Y(=%d)" % (x, y))
+    print("X(=%d) is odd and greater than Y(=%d)" % (x, y))
 elif y % 2 and y > x:
-    print("Y(=%d) is odd and bigger than X(=%d)" % (y, x))
+    print("Y(=%d) is odd and greater than X(=%d)" % (y, x))
 else:
     print("Something else.")
 print()
@@ -28,12 +31,12 @@ if x % 2 == 0 and y % 2 == 0 and z % 2 == 0:
     print("There is no odd number.")
 elif x > y and x > z:
     if x % 2:
-        print("X(=%d) is odd and the biggest number." % x)
+        print("X(=%d) is odd and the greatest number." % x)
 elif y > x and y > z:
     if y % 2:
-        print("Y(=%d) is odd and the biggest number." % y)
+        print("Y(=%d) is odd and the greatest number." % y)
 elif z > x and z > y:
     if z % 2:
-        print("Z(=%d) is odd and the biggest number." % z)
+        print("Z(=%d) is odd and the greatest number." % z)
 else:
     print("Something else.")
