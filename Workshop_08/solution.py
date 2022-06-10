@@ -37,7 +37,7 @@ def a1():
 
 # 注意：isdigit()はマイナスの整数(-1など)を整数と判定しない．
 def a2():
-    print("---Aspect 1---")
+    print("---Aspect 2---")
     print("Please input positive integers for list b[].")
     i = 0
     while True:
