@@ -3,10 +3,7 @@ def is_odd(x):
 
 
 def is_all_even(*numbers):
-    for i in numbers:
-        if is_odd(i):
-            return False
-    return True
+    return all(not is_odd(i) for i in numbers)
 
 
 def greatest_number(*numbers):
