@@ -1,8 +1,5 @@
 def is_odd(x):
-    if x % 2:
-        return True
-    else:
-        return False
+    return bool(x % 2)
 
 
 def is_all_even(*numbers):
