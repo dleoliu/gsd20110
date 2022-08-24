@@ -30,8 +30,8 @@ def a1():
         i += 1
     a.sort(reverse=True)
     print("-----------------")
-    for i in range(len(a)):
-        print("a[%d]: %d" % (i, a[i]))
+    for i, item in enumerate(a):
+        print("a[%d]: %d" % (i, item))
     print()
 
 
@@ -48,8 +48,8 @@ def a2():
         i += 1
     b.sort(reverse=True)
     print("-----------------")
-    for i in range(len(b)):
-        print("b[%d]: %d" % (i, b[i]))
+    for i, item in enumerate(b):
+        print("b[%d]: %d" % (i, item))
     print()
 
 
